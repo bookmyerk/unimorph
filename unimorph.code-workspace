@@ -1,0 +1,36 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "UniMorph"
+    }
+  ],
+  "settings": {
+    "files.encoding": "utf8",
+    "files.eol": "\n",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.renderWhitespace": "boundary",
+    "files.associations": {
+      "*.sh": "shellscript",
+      "*.md": "markdown",
+      ".gitmodules": "ini"
+    },
+    "shellcheck.enable": true,
+    "markdown.preview.breaks": true,
+    "git.submodules": true,
+    "git.alwaysShowStagedChangesResourceGroup": true
+  },
+  "extensions": {
+    "recommendations": [
+      "timonwong.shellcheck",
+      "foxundermoon.shell-format",
+      "yzhang.markdown-all-in-one",
+      "davidanson.vscode-markdownlint",
+      "mhutchie.git-graph"
+    ]
+  }
+}
